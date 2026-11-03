@@ -1,0 +1,140 @@
+/* Edição espartana: pedra, bronze e vermelho. O método e seus limites permanecem. */
+@media screen {
+  :root {
+    --bg:#141511; --surface:#20211c; --surface2:#2b2c24;
+    --text:#f1ecdf; --muted:#c0bdae; --accent:#d8b879;
+    --line:#47473b; --ink:#1a1c15; --warm:#d8b879; --blue:#d8cbaa;
+    --crimson:#8a302b; color-scheme:dark;
+  }
+  body { background:var(--bg); background-image:linear-gradient(90deg,transparent 49.9%,#f4e5b303 50%,transparent 50.1%); }
+  h1,h2,.compass-caption,.large-copy { font-family:Georgia,'Times New Roman',serif; }
+  h1 { letter-spacing:-.035em; }
+  h1 em,h2 em { font-style:normal; }
+  h2 { letter-spacing:-.025em; }
+  .wrap { max-width:1280px; }
+  .site-header { border-bottom-color:#5c5038; min-height:92px; background:#141511; }
+  .brand { font-size:1.3rem; letter-spacing:.01em; }
+  .brand i { font-style:normal; color:#c0bdae; }
+  .brand-mark { display:inline-flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .brand-mark .shield-icon { width:33px; height:39px; display:block; }
+  .site-header nav { gap:23px; }
+  .site-header nav a { color:#d0ccbd; }
+  .site-header nav a:hover,.site-header nav [aria-current=page] { color:var(--accent); }
+  .edition { font-size:.65rem; letter-spacing:.18em; }
+  .eyebrow { font-size:.7rem; letter-spacing:.2em; line-height:1.7; }
+  .hero { grid-template-columns:1fr 1.1fr; gap:70px; padding-block:54px 64px; }
+  .hero-copy { padding-top:5px; }
+  .hero-insignia { display:flex; align-items:center; gap:22px; margin-bottom:25px; }
+  .hero-insignia .shield-icon { width:72px; height:84px; flex-shrink:0; }
+  .hero-insignia .eyebrow { margin:0; max-width:250px; }
+  .hero h1 { font-size:clamp(3.25rem,5.3vw,4.8rem); font-weight:400; letter-spacing:-.025em; line-height:1.03; text-transform:uppercase; }
+  .hero h1 em { color:var(--accent); }
+  .hero .lead { font-size:1.18rem; margin-top:24px; max-width:380px; }
+  .hero-note { max-width:420px; font-size:.96rem; line-height:1.8; }
+  .hero-principles { margin-top:27px; padding-left:18px; border-left:2px solid var(--crimson); }
+  .hero-principles p { font-size:.84rem; line-height:1.6; }
+  .hero-signature { margin-top:27px; }
+  .hero-signature .brand-mark .shield-icon { width:24px; height:29px; }
+  .reading-entry a { color:var(--accent); }
+  .button,.case-buttons button,.balance-grid,.case-panel,.finance-note,.sources-grid article,.library-download,.agent-pick { border-radius:0; }
+  .button { min-height:47px; font-size:.875rem; letter-spacing:.015em; }
+  .primary { background:var(--accent); border-color:var(--accent); color:var(--ink); }
+  .primary:hover { background:#ebd29f; border-color:#ebd29f; }
+  .principle-strip { border-color:#5c5038; background:#1e1e18; }
+  .principle-strip .wrap { font-size:.67rem; letter-spacing:.2em; }
+  .workshop {
+    --bg:#ece7d9; --surface:#e2ddcd; --text:#28291f; --muted:#5d5d4f;
+    --accent:#7e2f29; --ink:#fff9ec; --line:#c4bda9;
+    color-scheme:light; border-radius:0; background:var(--bg);
+    border:1px solid #c2b594; border-top:4px solid #8a302b;
+    box-shadow:0 16px 40px #00000026; padding:28px 31px;
+  }
+  .workshop-heading h2 { font-size:1.85rem; line-height:1.15; letter-spacing:-.025em; }
+  .workshop-heading>span { border-radius:0; }
+  .workshop .primary { background:#7e2f29; color:#fff9ec; border-color:#7e2f29; }
+  .workshop .primary:hover { background:#60231f; border-color:#60231f; }
+  .workshop .button:not(.primary) { border-color:#9b927d; }
+  .workshop :focus-visible { outline-color:#7e2f29; }
+  .workshop form input:not([type=range]),.workshop form textarea,.workshop form select,#assistant-output {
+    background:#faf7ee; color:#28291f; border-color:#a79e89; border-radius:0;
+  }
+  .workshop form input::placeholder,.workshop form textarea::placeholder { color:#69695b; }
+  .step-track span { border-radius:0; }
+  .step-track .active { background:#7e2f29; box-shadow:0 0 0 3px #7e2f2912; }
+  .step-track .completed { background:#ddd4bd; border-color:#9f8c64; color:#55411e; }
+  .result-points-group { background:#e3dece; border-color:#c4bda9; }
+  .result-points-group[data-kind=barrier] { border-left-color:#7e2f29; }
+  .result-points-group[data-kind=unknown] { border-left-color:#785d22; }
+  .agents-invitation { padding-block:32px 47px; }
+  .agents-invitation h2 { font-size:2rem; }
+  .balance-result,.case-panel { background:#23241e; border-color:var(--line); }
+  .balance-result p,.case-panel p,.faith-section p { color:var(--muted); }
+  .method-section { background:#1c1e18; border-color:#494b3c; }
+  .method-grid article { border-top-color:#746341; }
+  .manifesto-section { background:#d8c7a2; color:#25271e; border-block:7px double #65563b; }
+  .manifesto-section .eyebrow,.manifesto-section em { color:#6d3026; }
+  .manifesto-section strong { color:#25271e; }
+  .faith-section { background:#28201b; border-color:#5f4d37; }
+  .compass-card { border-radius:0; border:1px solid #756441; background:radial-gradient(circle at 50% 40%,#343326,#1c1e17 70%); }
+  .compass .ring { stroke:#756441; }
+  .compass .axis { stroke:#4f503e; }
+  .compass .rose { fill:#303122; stroke:#a38b59; }
+  .compass text { fill:#ddd1b6; }
+  .compass-caption { font-size:2.15rem; }
+  .compass-card .card-top { margin-top:15px; }
+  .assistant-intro,.map-intro { border-bottom:1px solid var(--line); margin-bottom:35px; }
+  .assistant-intro h1 { font-size:clamp(2.7rem,4.4vw,4.2rem); }
+  .agent-pick[aria-pressed=true] { background:#302c20; border-color:#9c885c; box-shadow:inset 3px 0 0 #d8b879; }
+  .agent-pick:hover { background:#28281e; border-color:#b6a177; }
+  .agent-medallion { background:#ded2b7; color:#7e2f29; border-radius:0; }
+  .assistant-workshop details,#assistant-result { border-color:#c4bda9; }
+  .assistant-status,.profile-links { color:#7e2f29; }
+  .library-download { background:#21231b; }
+  .route-figure { border-radius:0; background:#1d1f18; border-color:#756441; }
+  .route-grid { stroke:#474b39; }
+  .route-b,.route-bridge { stroke:#c3c6ac; }
+  .map-progress b,.route-input h3 span,.map-route-result { border-radius:0; }
+  .route-input h3 span { color:#6d3026; background:#ded2b7; }
+  .map-notice { background:#e0dac8; border-left-color:#857149; }
+  .map-route-result .route-state { background:#ddd4bd; color:#574522; }
+  .closing em { font-style:normal; }
+  .site-footer { border-top:1px solid #756441; }
+  @media(max-width:1200px) {
+    .hero { gap:42px; } .hero h1 { font-size:3.65rem; }
+    .workshop { padding:27px; } .site-header nav { gap:18px; }
+  }
+  @media(max-width:950px) {
+    .hero { gap:28px; grid-template-columns:.9fr 1.1fr; }
+    .hero h1 { font-size:3.1rem; } .hero-insignia { gap:14px; }
+    .hero-insignia .shield-icon { width:58px; height:68px; }
+    .hero-insignia .eyebrow { font-size:.62rem; } .workshop { padding:24px; }
+    .brand { font-size:1.2rem; }
+  }
+  @media(max-width:730px) {
+    .site-header { min-height:76px; } .brand { font-size:1.15rem; gap:9px; }
+    .brand-mark .shield-icon { width:27px; height:32px; }
+    .hero { grid-template-columns:1fr; padding-block:30px 38px; gap:32px; }
+    .hero-insignia { margin-bottom:23px; gap:18px; }
+    .hero-insignia .shield-icon { width:48px; height:56px; }
+    .hero-insignia .eyebrow { font-size:.65rem; }
+    .hero h1 { font-size:clamp(2.85rem,11vw,4.3rem); line-height:1.03; }
+    .hero h1 br:last-child { display:initial; }
+    .hero .lead { font-size:1.1rem; margin-top:20px; }
+    .hero-note { font-size:.95rem; }
+    .workshop { padding:24px 20px; box-shadow:none; }
+    .workshop-heading h2 { font-size:1.75rem; }
+    .hero .mobile-start { margin-top:24px; }
+    .principle-strip .wrap { font-size:.65rem; }
+    .assistant-intro,.map-intro { margin-bottom:28px; }
+    .assistant-intro h1 { font-size:2.65rem; }
+    .assistant-workshop { padding:24px 20px; }
+    .assistant-top h2 { font-size:1.65rem; }
+    .map-intro h1 { font-size:3rem; }
+  }
+  @media(max-width:370px) {
+    .brand { font-size:1.04rem; } .brand-mark .shield-icon { width:23px; height:28px; }
+    .workshop { padding:22px 17px; }
+    .hero h1 { font-size:2.85rem; }
+  }
+}
+@media print { .hero-insignia { display:none; } }

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Alternativas e reversibilidade"
+  short_description: "Compare agir, testar, esperar e recusar."
+  default_prompt: "Use $honra-rotas para organizar esta reflexão com os princípios HONRA."

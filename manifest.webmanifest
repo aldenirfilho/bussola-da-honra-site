@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "Bússola da Honra",
+  "short_name": "Bússola",
+  "description": "Coragem para viver. Discernimento para escolher.",
+  "lang": "pt-BR",
+  "start_url": "./aplicativo.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#141511",
+  "theme_color": "#141511",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Minha decisão", "url": "./index.html#praticar" },
+    { "name": "Mapa de escolhas", "url": "./mapa.html" }
+  ]
+}

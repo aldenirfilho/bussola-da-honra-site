@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clareza e evidências"
+  short_description: "Separe fatos, desejos e suposições."
+  default_prompt: "Use $honra-clareza para organizar esta reflexão com os princípios HONRA."

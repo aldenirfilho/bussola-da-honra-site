@@ -1,0 +1,4 @@
+interface:
+  display_name: "Execução e retomada"
+  short_description: "Saia com uma ação pequena e revisável."
+  default_prompt: "Use $honra-proximo-passo para organizar esta reflexão com os princípios HONRA."

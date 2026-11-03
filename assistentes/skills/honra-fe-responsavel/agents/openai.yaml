@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fé e discernimento"
+  short_description: "Relacione convicção, cuidado e liberdade."
+  default_prompt: "Use $honra-fe-responsavel para organizar esta reflexão com os princípios HONRA."

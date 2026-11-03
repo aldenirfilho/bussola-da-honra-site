@@ -1,0 +1,4 @@
+interface:
+  display_name: "Impactos e justiça"
+  short_description: "Inclua quem recebe ganhos e riscos."
+  default_prompt: "Use $honra-impactos para organizar esta reflexão com os princípios HONRA."

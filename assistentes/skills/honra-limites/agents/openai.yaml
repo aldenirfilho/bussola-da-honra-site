@@ -1,0 +1,4 @@
+interface:
+  display_name: "Limites e autonomia"
+  short_description: "Proteja o que não pode ser sacrificado."
+  default_prompt: "Use $honra-limites para organizar esta reflexão com os princípios HONRA."
