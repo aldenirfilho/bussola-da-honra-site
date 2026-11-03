@@ -2,7 +2,7 @@
   "distribution": "bussola-da-honra-site",
   "edition": "1.7.0",
   "date": "2026-11-03",
-  "source_commit": "cdfe2507f2ab7e7ae18bc72a4790663bbeee0b63",
+  "source_commit": "97501e4ef75a291a3c9a42d4d1e514ad8503efb6",
   "site_files": [
     ".nojekyll",
     "agentes.html",
@@ -111,13 +111,13 @@
     "materiais/mapa-escolhas.md": "385cd5dedc1573327d62e4e71e9808995166aca4bf993c409984cdc5f2f4306b",
     "materiais/referencias.md": "5fa97240aed92ca7cfa048039d7cc4e5e6bf34b241b61f058f76e8f281269113",
     "platform.js": "37f9f84c849d94c1493b0bf34cad4ee20508421f68e3c6f2be8680e4d64abcaf",
-    "privacidade.html": "89f4b3f1a73fb0e446c09ee4fc3c12cdd82517aadb286c3543f9b4869e591e7e",
-    "pwa-assets.js": "8fe92ef0ba1bd5a9f12d575e2cb909803121a913592fa5f5288a5072c615acd2",
+    "privacidade.html": "3b73d16880095db2e588356eea079d7cab92a95224d732aec66b37d0e5a35494",
+    "pwa-assets.js": "4e4e614f8061bf1e75b3e0794eb00d41873fea8be7e8dece8098968553693b35",
     "pwa.css": "bc59a32dfd4ddc512fee82735e7bda8a000ea50ebfa445d9b82a1916947d4aa6",
     "pwa.js": "1ec9adf56aec5cb40c8952b10f83b26d1b9babae022a05c501253616b10e23da",
     "README.md": "efb5997f9906bb228acce3fb495dbcf23f4bb7d694d9c165e84cb1e5ab910818",
     "spartan.css": "115990a8e406e6992344b0df6545737c1fa4ea774a2d30c493feff89a75aa175",
     "styles.css": "fbaafdcef813fb9131884adbfee69d1937e1aece3af14c93e45d535e76a0a595",
-    "sw.js": "50f743fb8942cc6c240427c713d4b75d80205fa8f55b2951243cceaf18ea9158"
+    "sw.js": "d42a8db780c9c3b222ed361f027c53859e325d15f7d2fa8176f20fba0ffaaac7"
   }
 }

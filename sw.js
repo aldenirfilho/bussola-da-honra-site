@@ -6,7 +6,7 @@ function publicKey(url) {
   const parsed = new URL(url);parsed.search = '';parsed.hash = '';
   if (parsed.origin !== base.origin || !parsed.pathname.startsWith(base.pathname)) return null;
   if (parsed.pathname === base.pathname) parsed.pathname += 'index.html';
-  if (['index', 'aplicativo', 'mapa', 'agentes'].some(name => parsed.pathname === base.pathname + name)) parsed.pathname += '.html';
+  if (['index', 'aplicativo', 'mapa', 'agentes', 'privacidade'].some(name => parsed.pathname === base.pathname + name)) parsed.pathname += '.html';
   return publicUrls.has(parsed.href) ? parsed.href : null;
 }
 self.addEventListener('install', event => {

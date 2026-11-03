@@ -1,5 +1,5 @@
 // Gerado por npm run sync. Somente arquivos públicos.
-const HONRA_CACHE = "honra-public-bdb7d19961634b50";
+const HONRA_CACHE = "honra-public-a501d0b8c46cea76";
 const HONRA_FILES = [
   "agentes.html",
   "aplicativo.html",
